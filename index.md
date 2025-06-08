@@ -22,8 +22,8 @@ I'm using data from [Inside Airbnb](http://insideairbnb.com/get-the-data.html) a
 
 All my analysis is in notebooks, and each post summarizes what I’ve done and learned.
 
-➡️ [Start reading here](./2025-06-08-exploring-airbnb-santiago)  
-➡️ [See the GitHub repo](https://github.com/your-username/your-repo)
+➡️ [Start reading here](./2025-06-08-exploring-airbnb-santiago-chile)  
+➡️ [See the GitHub repo](https://github.com/pmmaria/inside_airbnb)
 
 ---
 
@@ -45,6 +45,8 @@ I like practical, real-world data, and documenting my learning journey.
 If you're a recruiter or just curious, feel free to get in touch!
 
 📫 Email: mary.perez.m@gmail.com  
+
 💼 [LinkedIn](https://www.linkedin.com/in/maria-perez1205)
+
 🐙 [GitHub](https://github.com/pmmaria)
 
