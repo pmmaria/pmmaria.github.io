@@ -19,6 +19,7 @@ I downloaded several CSV files provided by Inside Airbnb and created a project t
 - **VSCode** as my main editor
 - A **Google Cloud** project to store my cleaned datasets
 
+
 Setting up the virtual environment with `uv` was really fast, and I like that it automatically keeps a lock file for reproducibility.
 
 ---
