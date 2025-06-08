@@ -22,8 +22,10 @@ I'm using data from [Inside Airbnb](http://insideairbnb.com/get-the-data.html) a
 
 All my analysis is in notebooks, and each post summarizes what I’ve done and learned.
 
-➡️ [Start reading here](./2025-06-08-exploring-airbnb-santiago-chile)  
+➡️ [Start reading here](2025-06-08-exploring-airbnb-santiago-chile)  
 ➡️ [See the GitHub repo](https://github.com/pmmaria/inside_airbnb)
+
+➡️ [Read: Exploring Airbnb Santiago](2025/06/08/exploring-airbnb-santiago-chile.html)
 
 ---
 
