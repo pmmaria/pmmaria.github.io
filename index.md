@@ -3,17 +3,6 @@ layout: default
 title: "Home"
 ---
 
-# 📝 Blog Posts
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
-    </li>
-  {% endfor %}
-</ul>
-
-
 # 👋 Welcome!
 
 Hi! I'm currently working on a data analysis project using real Airbnb data for **Santiago, Chile**.  
@@ -61,4 +50,17 @@ If you're a recruiter or just curious, feel free to get in touch!
 💼 [LinkedIn](https://www.linkedin.com/in/maria-perez1205)
 
 🐙 [GitHub](https://github.com/pmmaria)
+
+---
+
+## 📚 Blog Posts
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> – {{ post.date | date: "%Y-%m-%d" }}
+    </li>
+  {% endfor %}
+</ul>
+
 
