@@ -3,6 +3,17 @@ layout: default
 title: "Home"
 ---
 
+# 📝 Blog Posts
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
+    </li>
+  {% endfor %}
+</ul>
+
+
 # 👋 Welcome!
 
 Hi! I'm currently working on a data analysis project using real Airbnb data for **Santiago, Chile**.  
@@ -22,10 +33,9 @@ I'm using data from [Inside Airbnb](http://insideairbnb.com/get-the-data.html) a
 
 All my analysis is in notebooks, and each post summarizes what I’ve done and learned.
 
-➡️ [Start reading here](2025-06-08-exploring-airbnb-santiago-chile)  
+➡️ [Start reading here](2025/06/08/exploring-airbnb-santiago-chile.html)  
 ➡️ [See the GitHub repo](https://github.com/pmmaria/inside_airbnb)
 
-➡️ [Read: Exploring Airbnb Santiago](2025/06/08/exploring-airbnb-santiago-chile.html)
 
 ---
 
