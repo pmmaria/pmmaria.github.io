@@ -2,6 +2,7 @@
 layout: post
 title: "Exploring Airbnb Data for Santiago, Chile"
 date: 2025-06-08
+author: Maria
 ---
 
 I started a small data project using real data from [Inside Airbnb](http://insideairbnb.com/), focusing on listings in Santiago, Chile. The idea is to explore the data, clean it, and look for interesting insights around prices, availability, and reviews.
