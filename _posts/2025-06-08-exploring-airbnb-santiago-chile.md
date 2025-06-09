@@ -60,9 +60,17 @@ I’ve decided to work with these three tables:
 
 The next step is to start cleaning them: fix column names, handle missing values, and standardize price and date formats.
 
-I’ll document everything as I go — stay tuned!
+### 🆕 New Update:
+✅ [Read the next post: Cleaning the calendar Table](https://pmmaria.github.io/project/2025/06/09/cleaning-airbnb-calendar.html) 
 
 ---
 
 Thanks for reading! If you have questions or feedback, feel free to reach out or follow the project on [GitHub](#).
+
+<p style="text-align:center;">
+  <a href="{{ site.baseurl }}/" style="display:inline-block; padding: 0.5em 1em; background:#f0f0f0; border-radius:5px; text-decoration:none; color:#333;">
+    🔙 Back to Home
+  </a>
+</p>
+
 
