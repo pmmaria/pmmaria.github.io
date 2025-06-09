@@ -74,7 +74,7 @@ plt.show()
 
 Here’s the histogram:
 
-![Price Distribution Histogram](/assets/price_distribution.png)
+![Price Distribution Histogram](/assets/price_distribution_u450.png)
 
 Most prices were under 100,000 CLP per night. I decided to keep listings with prices under 450,000 CLP, which covers 99% of the data, and remove extreme low and high values for now.
 
