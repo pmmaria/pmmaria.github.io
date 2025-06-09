@@ -34,7 +34,7 @@ I’m working with five files:
 - `reviews.csv` (subset)
 - `reviews.csv.gz` (full version)
 
-In my first notebook (`01_exploratory_analysis.ipynb`), I loaded each of these files into a pandas DataFrame and printed basic information: shape, column names, data types, and sample rows.
+In my first notebook [(`01_exploratory_analysis.ipynb`)](https://github.com/pmmaria/inside_airbnb/blob/main/01_exploratory_analysis.ipynb), I loaded each of these files into a pandas DataFrame and printed basic information: shape, column names, data types, and sample rows.
 
 This helped me understand what’s inside and decide which tables to focus on.
 
