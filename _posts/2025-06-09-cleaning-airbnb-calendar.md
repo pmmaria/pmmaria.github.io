@@ -3,6 +3,7 @@ layout: post
 title: "🗓️ Cleaning the Airbnb Calendar Data"
 date: 2025-06-09
 categories: [project]
+author: Maria
 ---
 
 In this post, I’m cleaning the `calendar` table from the Inside Airbnb dataset for Santiago. The goal is to prepare a clean version I can upload to Google Cloud — basically simulating an ETL process.
@@ -13,11 +14,12 @@ In this post, I’m cleaning the `calendar` table from the Inside Airbnb dataset
 
 After loading the data, the first thing I noticed was that several columns had weird data types — like prices stored as text and dates as strings. Not great for analysis, so I did a quick inspection to figure out what needed to be fixed:
 
+<div style="overflow-x: auto;">
 ```python
 for col in df_calendar.select_dtypes(include='object').columns:
     print(f"==> {col}")
     print(df_calendar[col].map(type).value_counts())
-```
+</div> ```
 
 ## 🔁 Step 2: Convert Columns to Proper Types
 
